@@ -1,0 +1,75 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1.8rem;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__avatar {
+  width: 32px !important;
+  height: 32px !important;
+}
+.header__right > a {
+  margin-left: 1.1rem;
+  font-size: 13.5px;
+}
+.header__left > a {
+  font-size: 13.5px;
+}
+.header__right > a:hover {
+  text-decoration: underline;
+}
+
+.header__right .appicon {
+  color: gray !important;
+}
+
+/* Body */
+
+.home__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 7%;
+}
+.home__body > small > strong {
+  color: blue;
+}
+.home__body > small > strong:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.home__body > img {
+  height: 92px;
+  object-fit: contain;
+}
+
+.body__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.body__btn button {
+  text-transform: capitalize;
+  font-size: 14px;
+  border: 1px solid transparent;
+  margin: 0 5px;
+  background-color: #f8f9fa;
+}
+.body__btn button:hover {
+  border: 1px solid skyblue;
+}
